@@ -1,6 +1,6 @@
-// Definición de la clase CuentaBancaria
+package Taller1;
+
 public class CuentaBancaria {
-    // Propiedades de la clase
     private String numeroCuenta;
     private double saldo;
     private String tipoCuenta;

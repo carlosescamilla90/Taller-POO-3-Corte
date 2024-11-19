@@ -1,6 +1,6 @@
-// Definición de la clase Libro
+package Taller1;
+
 public class Libro {
-    // Propiedades de la clase
     private String titulo;
     private String autor;
     private int numeroPaginas;
