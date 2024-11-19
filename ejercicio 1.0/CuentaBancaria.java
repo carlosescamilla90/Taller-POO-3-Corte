@@ -20,7 +20,7 @@ public class CuentaBancaria {
     }
 
     // Constructor sobrecargado con tres parámetros (numeroCuenta, saldo y tipoCuenta)
-    public CuentaBancaria(String numeroCuenta, double saldo, String tipoCuenta) {
+    public CuentaBancaria(String numeroCuenta, String tipoCuenta, double saldo) {
         this.numeroCuenta = numeroCuenta; 
         this.saldo = saldo;                
         this.tipoCuenta = tipoCuenta;     
@@ -42,7 +42,7 @@ public class CuentaBancaria {
         CuentaBancaria cuenta2 = new CuentaBancaria("90100256664", "Ahorros");
         cuenta2.mostrarDetalles(); 
 
-        CuentaBancaria cuenta3 = new CuentaBancaria("1019052042", 4000.0, "Corriente");
+        CuentaBancaria cuenta3 = new CuentaBancaria("1019052042", "Corriente", 4000.0);
         cuenta3.mostrarDetalles(); 
     }
 }
