@@ -23,7 +23,8 @@ public class Libro {
     public void mostrarDetalles() {
         System.out.println("Titulo: " + this.titulo); 
         System.out.println("Autor: " + this.autor);  
-        System.out.println("Número de páginas: " + this.numeroPaginas); 
+        System.out.println("Número de páginas: " + this.numeroPaginas);
+        } 
 
     // Método principal para probar la clase
     public static void main(String[] args) {
@@ -32,6 +33,7 @@ public class Libro {
         libro1.mostrarDetalles(); 
 
         
-        Libro libro2 = new Libro("1984", "George Orwell", 328);
+        Libro libro2 = new Libro("20mil Leguas de Viaje Submarino ", "Julio Verne", 328);
         libro2.mostrarDetalles(); 
+}
 }
