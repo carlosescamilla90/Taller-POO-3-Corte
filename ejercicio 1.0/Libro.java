@@ -7,8 +7,8 @@ public class Libro {
 
     // Constructor por defecto que asigna valores predeterminados
     public Libro() {
-        this.titulo = "Desconocido"; 
-        this.autor = "Desconocido";  
+        this.titulo = "NN"; 
+        this.autor = "NN";  
         this.numeroPaginas = 0;     
     }
 
@@ -32,7 +32,6 @@ public class Libro {
         Libro libro1 = new Libro();
         libro1.mostrarDetalles(); 
 
-        
         Libro libro2 = new Libro("20mil Leguas de Viaje Submarino ", "Julio Verne", 328);
         libro2.mostrarDetalles(); 
 }
