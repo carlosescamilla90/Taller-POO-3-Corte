@@ -5,7 +5,7 @@ public class Estudiante {
     private int edad;      
     private String curso; 
 
-    // Constructor por defecto que asigna valores genéricos
+    // Constructor por defecto 
     public Estudiante() {
         this.nombre = "NN"; 
         this.edad = 0;               
