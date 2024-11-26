@@ -1,4 +1,4 @@
-package Taller1;
+package Taller1.EjercicioFinal;
 
 public class CuentaBancaria {
     private String numeroCuenta;

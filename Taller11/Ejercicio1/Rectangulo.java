@@ -1,6 +1,5 @@
 package Taller11.Ejercicio1;
 
-
 public class Rectangulo extends Figura {
     private double largo; 
     private double ancho; 

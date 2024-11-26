@@ -23,6 +23,6 @@ public class PruebaCoche {
         coche2.acelerar(10);
         System.out.println("Después de acelerar: " + coche2);
 
-        coche2.acelerar(-10); 
+        coche2.acelerar(20); 
     }
 }

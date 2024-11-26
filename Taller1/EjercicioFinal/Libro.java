@@ -1,4 +1,4 @@
-package Taller1;
+package Taller1.EjercicioFinal;
 
 public class Libro {
     private String titulo;

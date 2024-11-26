@@ -2,9 +2,9 @@ package Taller12.Ejercicio1;
 
 public class Prueba {
     public static void main(String[] args) {
-        Persona persona = new Persona("Carlos");
+        Ave pajaro = new Ave("tucan");
 
-        persona.hablar();
-        persona.trabajar();
+        pajaro.cantar();
+        pajaro.Volar();
     }
 }

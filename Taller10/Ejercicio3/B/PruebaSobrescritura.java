@@ -7,6 +7,7 @@ class Base {
 }
 
 class Derivada extends Base {
+   
     public void metodoBase() {
         System.out.println("Método sobrescrito en la clase derivada");
     }

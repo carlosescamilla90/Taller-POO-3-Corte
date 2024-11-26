@@ -6,9 +6,10 @@ interface Hablador {
 
 public class Persona implements Hablador {
     
-    public void hablar() {
-    System.out.println("Hablando");
-    }
+    //public void hablar() {
+    //System.out.println("Hablando");
+   
+//}
 
     // Constructor
     public Persona() {
@@ -17,5 +18,6 @@ public class Persona implements Hablador {
 
     public static void main(String[] args) {
         Persona persona = new Persona();
+        persona.hablar();
     }
 }

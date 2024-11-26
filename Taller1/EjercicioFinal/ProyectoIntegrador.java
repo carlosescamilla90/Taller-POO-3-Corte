@@ -1,4 +1,4 @@
-package Taller1;
+package Taller1.EjercicioFinal;
 import java.util.Scanner;
 
 public class ProyectoIntegrador {

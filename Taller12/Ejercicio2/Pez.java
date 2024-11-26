@@ -1,8 +1,8 @@
 package Taller12.Ejercicio2;
 
-public class Animal implements Volador, Nadador {
+public class Pez implements Respirador, Nadador {
     @Override
-    public void volar() { 
+    public void respirar() { 
         System.out.println("Esta volando."); 
     }
 
